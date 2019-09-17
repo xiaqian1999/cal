@@ -52,6 +52,8 @@ class ViewController: UIViewController {
         threeLabel.text = String(format: "$%.2f", threetotal)
         twoLabel.text = String(format: "$%.2f", twototal)
         oneLabel.text = String(format: "$%.2f", onetotal)
+        
+        print("Finished")
     }
     
 }
